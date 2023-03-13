@@ -248,6 +248,7 @@ export const FamousCatalog = () => {
 						</div>
 					</div>
 				</div>
+                <a className='famous-category-btn' href="#">Перейти в каталог</a>
 			</div>
 		</div>
 	);
