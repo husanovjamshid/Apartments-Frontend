@@ -1,0 +1,189 @@
+.logo-img {
+	width: 100%;
+	max-width: 183px;
+}
+
+.site-header {
+	padding: 15px;
+}
+
+.site-fixed {
+	padding: 15px;
+	position: fixed;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	transition: all 0.4s ease;
+	border: 1px solid transparent;
+}
+
+.fixed-color {
+	background-color: #fff;
+	transition: all 0.4s ease;
+	z-index: 9999;
+	border: 1px solid #c0c2d7;
+}
+
+.header-catalog {
+	border: 1px solid #ffffff;
+	border-radius: 200px;
+	text-decoration: none;
+	padding: 8px 15px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 22px;
+	color: #ffffff;
+	&:hover {
+		color: #fff;
+	}
+}
+
+.fixed-color .header-catalog {
+	background: #f4683f;
+	border-radius: 200px;
+	border: 1px solid #f4683f;
+}
+
+.nav-list {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap: 20px;
+}
+
+.off-nav-list {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	gap: 20px;
+	text-align: center;
+}
+
+.off-nav-list li {
+	margin-bottom: 7px;
+}
+
+.off-nav-links {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 17px;
+	color: #fff;
+	text-decoration: none;
+	&:hover {
+		color: #fff;
+	}
+	&:active {
+		color: #fff;
+	}
+	&:focus {
+		color: #fff;
+	}
+}
+
+.off-hero-icons {
+	display: flex;
+	gap: 15px;
+	margin-top: 70px;
+	color: red;
+}
+
+.offcanvas-body {
+	// padding: 25px !important;
+	display: flex;
+	margin: 0 auto;
+	flex-direction: column;
+    justify-content: space-between;
+	padding: 30px !important ;
+}
+
+.nav-links {
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 17px;
+	color: #ffffff;
+	text-decoration: none;
+	&:hover {
+		color: #fff;
+	}
+	&:active {
+		color: #fff;
+	}
+	&:focus {
+		color: #fff;
+	}
+}
+
+.fixed-color .nav-links {
+	color: #fff;
+}
+
+.social-list {
+	display: flex;
+	list-style: none;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	gap: 25px;
+}
+
+.heart-links {
+	color: #ffffff;
+	cursor: pointer;
+	// font-size: 20px;
+}
+
+.fixed-color .heart-links {
+	color: #f4683f;
+	// font-size: 20px;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 1180px) {
+	.header-search-none {
+		display: none;
+	}
+
+	.header-phone-none {
+		display: none;
+	}
+}
+
+.toggle-bar {
+	display: none;
+}
+
+@media only screen and (max-width: 992px) {
+	.toggle-bar {
+		display: block;
+	}
+}
+
+.fa-phone {
+	font-size: 18px;
+}
+
+.fa-magnifying-glass {
+	font-size: 18px;
+}
+
+.fa-heart {
+	font-size: 18px;
+}
+
+.offcanvas.show:not(.hiding),
+.offcanvas.showing {
+	transform: none;
+	background-color: #161723 !important;
+}
+
+.btn-close {
+	background-color: #fff !important;
+}
