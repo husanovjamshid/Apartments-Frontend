@@ -1,6 +1,6 @@
 import React from 'react';
 import './faq.scss';
-import './faq'
+// import './faq'
 
 export const FAQ = () => {
 	return (
